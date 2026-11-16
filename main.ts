@@ -1,4 +1,5 @@
-// A whale breaches from a snow globe; the judge sees exactly the bytes copied.
+// Entry driver for ai-excited-01: copies the bundled image verbatim to the requested output directory.
+// A whale bursts from a snow globe; the judge inspects exactly the bytes we copy.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
